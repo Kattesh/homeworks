@@ -1,3 +1,56 @@
-.someClass {
+.button {
+    background-color: #a4bb93;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
 
+.button:active{
+    background: #3e4b40;
+}
+.active{
+    background: #6a7e6f;
+}
+.affair{
+    display: flex;
+    color: #794464;
+}
+.item{
+    margin: 10px;
+    text-transform:uppercase;
+}
+.high{
+    color: red;
+    text-transform: lowercase;
+}
+.middle{
+    color: orange;
+    text-transform: lowercase;
+}
+.low{
+    color: green;
+    text-transform: lowercase;
+}
+.delete{
+    color: #e1d0d6;
+    background-color: #171e17;
+    border-radius: 8px;
 }
