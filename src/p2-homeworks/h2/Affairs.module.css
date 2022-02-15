@@ -1,9 +1,9 @@
 .button {
-    background-color: #a4bb93;
+    background-color: #373f37;
     border: 1px solid #222222;
     border-radius: 8px;
     box-sizing: border-box;
-    color: #222222;
+    color: #e6e0e0;
     cursor: pointer;
     display: inline-block;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
@@ -24,7 +24,7 @@
 }
 
 .button:active{
-    background: #3e4b40;
+    background: #3f4845;
 }
 .active{
     background: #6a7e6f;
@@ -42,7 +42,7 @@
     text-transform: lowercase;
 }
 .middle{
-    color: orange;
+    color: #846220;
     text-transform: lowercase;
 }
 .low{

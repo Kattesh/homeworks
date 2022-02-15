@@ -1,7 +1,61 @@
-.someClass {
-
+.greeting{
+    display: flex;
+    align-items: baseline;
 }
-
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 21px;
+    margin-left: 10px;
 }
+.input{
+    margin: 10px;
+    background: #c5ea9f;
+    color: #3e4b40;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 13px 23px;
+}
+.input:focus{
+    outline: none;
+    border:green solid 2px ;
+}
+.errorInput{
+    margin: 10px;
+    background: #e697a2;
+    color: #be6d8a;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 8px;
+    padding: 13px 23px;
+}
+button{
+    color: #f7f2f2;
+    background-color: #303933;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.count{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #49554c;
+
+}
+
