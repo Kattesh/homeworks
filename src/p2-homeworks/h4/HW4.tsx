@@ -27,6 +27,7 @@ function HW4() {
             <div className={s.column}>
                 <SuperInputText
                     value={text}
+                    placeholder={"Write here"}
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}

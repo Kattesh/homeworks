@@ -1,12 +1,38 @@
-.superInput {
+.input:focus{
+    outline: none;
+    border: #4f7c1f solid 3px;
+    box-sizing: border-box;
 
 }
 
+.superInput {
+    box-sizing: border-box;
+    margin: 10px 0;
+    background: #a0b795;
+    color: #1a1919;
+    padding: 10px;
+    border: #3e4b40 solid 2px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #3e583e;
+    background: #f5adad;
+    color: #aab29d;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
 
 .error {
+    box-sizing: border-box;
     color: red;
+    height: 50px;
+    margin-left: 10px;
 }

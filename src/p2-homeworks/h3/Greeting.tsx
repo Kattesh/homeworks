@@ -23,7 +23,6 @@ const Greeting: React.FC<GreetingPropsType> = (
                     value={name}
                     onChange={setNameCallback}
                     className={inputClass}
-
                     onBlur={setNameCallback}
                 />
                 <div className = {s.error}>{error}</div>
