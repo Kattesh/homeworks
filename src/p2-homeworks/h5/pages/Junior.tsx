@@ -4,15 +4,13 @@ import HW2 from '../../h2/HW2'
 import HW3 from '../../h3/HW3'
 import HW4 from '../../h4/HW4'
 
-function PreJunior() {
+function Junior() {
     return (
         <div>
-            <HW1/>
-            <HW2/>
-            <HW3/>
-            <HW4/>
-            {/*<HW6/>*/}
+        hello
         </div>
     )
 }
-export default PreJunior
+
+export default Junior
+
