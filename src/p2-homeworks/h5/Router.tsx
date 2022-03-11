@@ -5,8 +5,6 @@ import Error404 from "./pages/Error404";
 import Junior from "./pages/Junior";
 import JuniorPlus from "./pages/JuniorPlus";
 
-
-
 function Router() {
     return (
         <div>
@@ -15,9 +13,8 @@ function Router() {
                     <Route path='/PreJunior' element={ <PreJunior/>}/>
                     <Route path='/Junior' element={ <Junior/>}/>
                     <Route path='/JuniorPlus' element={ <JuniorPlus/>}/>
-                    <Route  element={<Error404/>}/>
+                    <Route path ='/404' element={<Error404/>}/>
                 </Routes>
-
         </div>
     )
 }
