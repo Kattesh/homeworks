@@ -30,7 +30,6 @@ let set = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) =>{
     return (
         <div>
             {mappedAffairs}
-
             <button onClick={set} className={setClass('all')} value={'all'}>All</button>
             <button onClick={set} className={setClass('high')} value={'high'}>High</button>
             <button onClick={set} className={setClass('middle')} value={'middle'}>Middle</button>

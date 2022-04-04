@@ -1,0 +1,41 @@
+.select {
+    font-family: "Arial Hebrew";
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 6px;
+    border: transparent;
+}
+
+.select:hover {
+    border: solid 2px #ee4a83;
+}
+
+.select:focus {
+    outline: none;
+    border: #4f7c1f solid 2px;
+}
+
+.option {
+    background-color: #aeea7d;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    color: #80bc80;
+}
+
+.option:checked {
+    background: #794464;
+    color: #1a1919;
+}
+
+.option:hover {
+    box-shadow: 0 0 10px #222222;
+    background: black;
+}
+

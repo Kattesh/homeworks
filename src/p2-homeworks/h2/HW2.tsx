@@ -26,7 +26,6 @@ function HW2() {
         {_id: 5, name: 'html & css', priority: 'middle'}
     ])
     let [filter, setFilter] = useState<PriorityType>('all')
-
     let filteredAffairs = filterAffairs(affairs, filter)
     let deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id))
 
@@ -34,7 +33,6 @@ function HW2() {
         <div>
             <hr/>
             homeworks 2
-
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
