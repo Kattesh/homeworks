@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+.clock {
+    font-family: 'Square Peg', cursive;
+    color: #efcc6b;
+    font-size: 40px;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
