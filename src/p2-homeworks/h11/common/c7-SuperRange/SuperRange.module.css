@@ -1,3 +1,28 @@
-.range {
+.range, .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
 
+.range {
+    width: 200px;
+    height: 8px;
+    background: #59675c;
+    outline: none;
+}
+
+.range:disabled::-moz-range-thumb {
+    background: darkgrey;
+}
+
+.range::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+
+}
+
+.range:disabled::-webkit-slider-thumb {
+    background: darkgrey;
 }
