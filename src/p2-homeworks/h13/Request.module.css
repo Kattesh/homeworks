@@ -1,0 +1,15 @@
+.responseSectionStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:600px ;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius:4px ;
+    font-weight:600 ;
+    background:#222;
+    color: white;
+
+}
+

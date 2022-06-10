@@ -7,6 +7,7 @@ function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState(100)
 
+
     const onDoubleRangeChange = (value: [number, number]) => {
         setValue1(value[0]);
         setValue2(value[1]);
