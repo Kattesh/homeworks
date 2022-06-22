@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import SuperCheckbox from '../h4/common/c3-SuperCheckbox/SuperCheckbox'
 import {testRequest} from "./RequestAPI";
 import {Preloader} from "../../components/Preloader/Preloader";
@@ -37,13 +37,11 @@ function Request() {
 
     return (
         <div>
-            <SuperCheckbox onChangeChecked={sendRequest} >Click to send a test request to the server</SuperCheckbox>
-
-            <div style={{margin: '20px 0 5px 0'}}className="sub_header">Response:</div>
+            <SuperCheckbox onChangeChecked={sendRequest}>Click to send a test request to the server</SuperCheckbox>
+            <div style={{margin: '20px 0 5px 0'}} className="sub_header">Response:</div>
             <div className={s.responseSectionStyle}>
                 {response && <span style={{fontWeight: '900'}}>{response}</span>}
                 {error && <span style={{color: 'red'}}>{error}</span>}
-
                 {spinnerDisplay && <Preloader/>}
             </div>
         </div>

@@ -13,3 +13,12 @@
 
 }
 
+.hw_section {
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+    margin: 10px 0 10px 60px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 6px;
+    background-color: rgba(0, 235, 235, 0.2);
+    box-shadow: 0 5px 30px rgb(0 0 0 / 40%);
+}
